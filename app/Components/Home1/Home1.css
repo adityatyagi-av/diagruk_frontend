@@ -1,0 +1,5 @@
+.back{
+   background:  linear-gradient(90deg, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%); 
+   box-Shadow: 400px 400px 400px ;
+   filter: blur(900px);
+}
