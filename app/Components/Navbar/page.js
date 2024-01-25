@@ -31,7 +31,7 @@ const Navbar = () => {
 
       {/* Right Section - Sign Up Button */}
       <div>
-        <button className="neon bg-white text-purple-500 font-bold px-9 py-3 rounded-full mr-8 border border-purple-500">
+        <button className="neon bg-white text-purple-500 font-bold px-12 py-3 rounded-full mr-8 border border-purple-500 text-normal">
           Sign Up
         </button>
       </div>

@@ -5,3 +5,12 @@
     color:#888;
     text-align: center;
 }
+.shade{
+    box-shadow: 4px 4px 10.5px 0px rgba(92, 92, 92, 0.25), -4px -4px 10.5px 0px rgba(92, 92, 92, 0.25);
+}
+.tree1{
+    height: 1100px;
+}
+.type{
+    /* font-family: Roboto; */
+}
