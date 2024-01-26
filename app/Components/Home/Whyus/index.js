@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import sense from '../Assets/image4.png'
+import sense from '../../Assets/image4.png'
 import './Home5.css'
-const page = () => {
+const WhyUs = () => {
   return (
     <body className='h-[1050px]'>
     <div>
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default WhyUs

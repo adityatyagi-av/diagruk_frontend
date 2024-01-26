@@ -1,10 +1,3 @@
-import Link from 'next/link';
-import Navbar from '../Navbar/page';
-import Home2 from '../Home2/page';
-import Home3 from '../Home3/page';
-import Home4 from '../Home4/page';
-import Home5 from '../Home5/page';
-import Home6 from '../Home6/page';
 import React from 'react';
 import './Landingpage.css'
 
@@ -18,7 +11,7 @@ const Landingpage = () => {
 </div>
     </div>
     </div>
-    <Navbar/>
+   
     {/* bg-gradient-to-b from-purple-900  rounded-full blur-[200px] */}
     <div className="ellipse rounded-full blur-[37px]">
 </div>
@@ -54,16 +47,6 @@ const Landingpage = () => {
 </button>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
  <div class='semicircle mx-48 my-56 ' >
  <div class="absolute">
   <div class="relate1 h-[250px] w-[165px] border-4 overflow-hidden absolute z-[-30]">

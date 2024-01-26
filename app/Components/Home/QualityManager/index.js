@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import './Home6.css'
-const page = () => {
+const QualityManager = () => {
   return (
     <div>
         <p className='type text-4xl font-semibold absolute ml-28 mt-24 '>
@@ -43,4 +43,4 @@ const page = () => {
   )
 }
 
-export default page
+export default QualityManager
