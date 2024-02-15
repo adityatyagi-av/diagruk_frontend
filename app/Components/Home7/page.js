@@ -20,11 +20,9 @@ import sense14 from '../Assets/image19.png';
 const page = () => {
   return (
     <div>
-        <p className='type text-3xl font-semibold absolute font-Roboto ml-40 mt-24 '>
-        OUR TRUSTED PARTNERS
-        </p>
+        
      
-     <div className='table absolute ml-40 mt-64 w-[1273px] h-[669px] flex-row'>
+     {/* <div className='table absolute ml-40 mt-64 w-[1273px] h-[669px] flex-row'>
      <div class="flex-col w-[1273px] absolute h-[669px] ">
       <div className='items-start'>
      <Image className='attract w-[240px] h-[92px]' src={sense2} />
@@ -55,10 +53,43 @@ const page = () => {
      </div>
      </div>
 
-     <div></div>
+     <div></div> */}
      
+     {/* </div> */}
+     <div className='flex justify-center h-[100vh]'>
+     <div className='flex flex-col justify-center '>
+      <div className='flex flex-col'>
+      <Image className='attract w-[240px] h-[92px]' src={sense2} />
+     <Image className='attract my-10 w-[240px] h-[92px]' src={sense3} />
+     <Image className='attract my-10 w-[240px] h-[92px]' src={sense4} />
+     <Image className='attract my-10 w-[240px] h-[92px]' src={sense5} />
+     <Image className='attract my-10 w-[240px] h-[92px]' src={sense6} />
+      </div>
+
+     </div>
+     <div className='flex flex-col items-stretch justify-center'>
+      <div className='flex flex-col justify-center'>
+      <Image className='attract w-[240px] h-[110px]' src={sense7} />
+     <Image className='attract my-5 w-[92px] h-[94px] ml-16' src={sense8} />
+     <Image className='attract my-10 w-[240px] h-[86px]' src={sense9} />
+     <Image className='attract my-10 w-[240px] h-[86px]' src={sense10} />
+     <Image className='attract my-10 w-[204.6px] h-[94px] ml-5' src={sense11} />
+      </div>
+
+     </div>
+     <div className='flex flex-col justify-center'>
+      <div className='flex flex-col justify-center'>
+      <Image className='attract w-[240px] h-[87px]' src={sense12}/>
+     <Image className='attract my-10 w-[240px] h-[87px]' src={sense13}/>
+     <Image className='attract my-10 w-[91px] h-[94px] ml-16' src={sense14}/>
+     <Image className='attract my-10 w-[240px] h-[92px]' src={sense}/>
+     <Image className='attract my-10 w-[240.6px] h-[92px]' src={sense1}/>
+      </div>
+
      </div>
      
+
+     </div>
 
 
 
@@ -94,4 +125,7 @@ alt="Description of the image"
      <Image className='my-9' src={sense1} />
      </div>
      </div>
-     </div> */}
+     </div>
+    <p className='type text-3xl font-semibold absolute font-Roboto ml-40 mt-24 '>
+        OUR TRUSTED PARTNERS
+        </p> */}
