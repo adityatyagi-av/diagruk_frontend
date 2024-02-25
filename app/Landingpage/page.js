@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Navbar from '../Navbar/page';
 import Home2 from '../Home2/page';
 import Home3 from '../Home3/page';
 import Home4 from '../Home4/page';
@@ -20,7 +19,7 @@ const LandingPage = () => {
         <div className="circle">
           <div className="semiellipse border-gradient border-gradient-purple"></div>
         </div>
-        <Navbar />
+        
 
         <div className="ellipse rounded-full blur-[37px]"></div>
 

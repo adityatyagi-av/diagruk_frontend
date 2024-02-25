@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Navbar from '../Navbar/page';
 import React from 'react';
 import sense from '../../public/image2.png';
 import Image from 'next/image'
@@ -15,7 +14,7 @@ const Herofigure = () => {
     <div className='flex flex-col items-center h-[100vh]'>
          <div className='absolute'>
     <div className='flex max-w-full justify-center h-64 items-center text-center ...'>
-        <h1 className="content text-7xl font-bold leading-none overflow-none bg-clip-text z-[20] text-purple-300">
+        <h1 className="content text-6xl font-semibold leading-none overflow-none bg-clip-text z-[20] text-purple-300">
               <span>Become a quality manager and <br /> triple your earning potential</span>
             </h1>
         </div>

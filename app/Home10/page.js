@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Navbar from '../Navbar/page';
 import Home2 from '../Home2/page';
 import Home3 from '../Home3/page';
 import Home4 from '../Home4/page';
@@ -17,7 +16,7 @@ const Home10 = () => {
   return (
     <>
     <div className='flex flex-col h-[100vh]'>
-        <Navbar/>
+        
         <Herofigure className='absolute h-[100dvh] mt-36'/>
     </div>  
     </>

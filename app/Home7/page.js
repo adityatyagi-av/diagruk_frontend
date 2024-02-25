@@ -20,37 +20,37 @@ import sense14 from '../../public/image19.png';
 const page = () => {
   return (
     <div>
-      <div className='flex max-w-xl	mt-24 text-4xl font-extrabold h-36 items-center justify-end'>
+      <div className='flex lg:ml-16 mt-6 lg:mt-24 text-start text-2xl lg:text-4xl font-bold lg:font-extrabold h-16 lg:h-20 items-center justify-center lg:justify-start'>
         <p>OUR TRUSTED PARTNERS</p>
       </div>
-     <div className=' grid grid-cols-3 justify-items-center h-[100vh]'>
-     <div className='flex flex-col justify-center '>
-      <div className='flex flex-col'>
-      <Image className='attract w-[240px] h-[92px] shadow-lg' src={sense2} />
-     <Image className='attract my-10 w-[240px] h-[92px] shadow-lg' src={sense3} />
-     <Image className='attract my-10 w-[240px] h-[92px] shadow-lg' src={sense4} />
-     <Image className='attract my-10 w-[240px] h-[92px] shadow-lg' src={sense5} />
-     <Image className='attract my-10 w-[240px] h-[92px] shadow-lg' src={sense6} />
+     <div className=' grid grid-cols-3 w-full justify-items-center h-[100vh]'>
+     <div className='flex flex-col  justify-center '>
+      <div className='flex  flex-col'>
+      <Image className='attract w-[100px] lg:w-[240px] lg:h-[92px] h-[65px] shadow-lg' src={sense2} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[92px] h-[61px] shadow-lg' src={sense3} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[92px] h-[61px] shadow-lg' src={sense4} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[92px] h-[61px] shadow-lg' src={sense5} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[92px] h-[61px] shadow-lg' src={sense6} />
       </div>
 
      </div>
-     <div className='flex flex-col items-stretch justify-center'>
-      <div className='flex flex-col justify-center'>
-      <Image className='attract w-[240px] h-[97px] py-[-16] shadow-lg' src={sense7} />
-     <Image className='attract my-10 w-[92px] h-[94px] ml-16 shadow-lg' src={sense8} />
-     <Image className='attract my-10 w-[240px] h-[86px] shadow-lg' src={sense9} />
-     <Image className='attract my-10 w-[240px] h-[86px] shadow-lg' src={sense10} />
-     <Image className='attract my-10 w-[204.6px] h-[94px] shadow-lg ml-5' src={sense11} />
+     <div className='flex flex-col  items-stretch justify-center'>
+      <div className='flex flex-col  justify-center'>
+      <Image className='attract w-[100px] lg:w-[240px] lg:h-[97px] h-[63px] py-[-16] shadow-lg' src={sense7} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[92px] lg:h-[94px] h-[60px] lg:ml-16 shadow-lg' src={sense8} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[86px] h-[60px] shadow-lg' src={sense9} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[86px] h-[60px] shadow-lg' src={sense10} />
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[204.6px] lg:h-[94px] h-[67px] shadow-lg lg:ml-5' src={sense11} />
       </div>
 
      </div>
-     <div className='flex flex-col justify-center'>
-      <div className='flex flex-col justify-center'>
-      <Image className='attract w-[240px] h-[87px] shadow-xl' src={sense12}/>
-     <Image className='attract my-10 w-[240px] h-[87px] py-4 shadow-xl' src={sense13}/>
-     <Image className='attract my-10 w-[91px] h-[94px] ml-16 shadow-lg' src={sense14}/>
-     <Image className='attract my-10 w-[240px] h-[92px] shadow-lg' src={sense}/>
-     <Image className='attract my-10 w-[240.6px] h-[92px] shadow-lg' src={sense1}/>
+     <div className='flex flex-col  justify-center'>
+      <div className='flex flex-col  justify-center'>
+      <Image className='attract w-[100px] lg:w-[240px] lg:h-[87px] h-[61px] shadow-xl' src={sense12}/>
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[87px] h-[61px] py-4 shadow-xl' src={sense13}/>
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[91px] lg:h-[94px] h-[67px] lg:ml-16 shadow-lg' src={sense14}/>
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240px] lg:h-[92px] h-[65px] shadow-lg' src={sense}/>
+     <Image className='attract mt-20 lg:my-10 w-[100px] lg:w-[240.6px] lg:h-[92px] h-[65px] shadow-lg' src={sense1}/>
       </div>
 
      </div>

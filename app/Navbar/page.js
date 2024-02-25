@@ -1,20 +1,18 @@
-// components/Navbar.js
 import Link from 'next/link';
-// import './Navabr.css'
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <div class="z-100">
-    <nav className=" bg-white-600 p-4 flex justify-between items-center z-10">
+    <nav className="bg-white p-4 flex justify-between items-center md:px-8">
       {/* Left Section - Company Name */}
-      <div>
-        <Link href="/" className=" text-3xl text-Black font-bold ml-8">
+      <div className="ml-4 md:ml-0">
+        <Link href="/" className="text-2xl font-bold text-black">
           DIAGRUK
         </Link>
       </div>
 
       {/* Center Section - Navigation Links */}
-      <div className="flex justify-center space-x-8 z-10">
+      <div className="hidden md:flex flex-grow justify-center space-x-8">
         <Link href="/" className="font-semibold text-gray-600 hover:text-purple-600">
           Home
         </Link>
@@ -30,13 +28,12 @@ const Navbar = () => {
       </div>
 
       {/* Right Section - Sign Up Button */}
-      <div>
-        <button className="neon bg-white text-purple-600 font-bold px-12 py-3 rounded-full mr-8 border border-purple-600 text-normal">
+      <div className="mr-4 md:mr-0">
+        <button className="neon bg-white text-purple-600 font-bold px-6 py-2 rounded-full border border-purple-600 text-sm">
           Sign Up
         </button>
       </div>
     </nav>
-    </div>
   );
 };
 
